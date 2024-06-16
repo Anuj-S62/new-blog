@@ -31,10 +31,11 @@ const PostPage = (props: any)=>{
     const post = getPostContent(slug);
     return (
         <div>
-            <h1 style={{color: "grey"}}>{post.data.title}</h1>
+            <h1 style={{color: "#dbd7d7"}}>{post.data.title}</h1>
             <Markdown>{post.content}</Markdown>
         </div>
     )
 }
+
 
 export default PostPage;

@@ -7,7 +7,8 @@ const HomeImage = () =>{
             <Image
               src="/images/agl2.png" // Adjust the path to your image
               alt="Description of image"
-              width={10000}
+              // fill whole width
+              width = {10000}
               height={600}
               // fill = {true}
             />

@@ -1,9 +1,12 @@
 ---
-title: "GSOC Week 1 Summary of Project"
+title: "GSoC Week 01 Summary"
 ---
 
 <!-- # GSoC Week 1 Summary -->
 
+<!-- Add a image from image/agl2-->
+
+<!-- <img src="agl2.png" alt="AGL" style="display: block; margin: auto; width: 50%;"/> -->
 ##### 27 May 2024 - 02 June 2024
 
 
@@ -44,3 +47,5 @@ Welcome to my Week 1 summary of my Google Summer of Code (GSoC) journey. This we
 
 ## Conclusion
 This week has been productive with significant progress in setting up the development environment and starting the core tasks. Despite encountering several challenges, I am confident that with continued effort and the resources at my disposal, I will be able to overcome these hurdles. I look forward to diving deeper into the project in the coming weeks and achieving my goals for the next phase of my GSoC journey.
+
+- 

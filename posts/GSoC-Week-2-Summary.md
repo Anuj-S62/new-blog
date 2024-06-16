@@ -1,5 +1,5 @@
 ---
-title: "GSoC week 02 Summary"
+title: "GSoC Week 02 Summary"
 ---
 
 
@@ -43,3 +43,6 @@ This week has been productive in terms of setting up the foundational recipes an
 ## Resources:
 
 - [meta-python-ai](https://layers.openembedded.org/layerindex/branch/scarthgap/layer/meta-python-ai/)
+
+
+- 

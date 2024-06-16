@@ -32,9 +32,12 @@ export default function Home() {
   const postMetadata = getPostMetadata();
   const postPreviews = postMetadata.map((post)=>(
     <div className="px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-neutral-800 duration-300 ... w-full active:bg-transparent">
-      <Link href = {`/posts/${post.slug}`} >
-       <button className = "py-2 w-full  active:bg-neutral-700 focus:outline-none  focus:bg-neutral-700 ...">{post.title}</button>
-      </Link>
+      <Link href={`/posts/${post.slug}`}>
+  <button className="py-3 px-4 w-full active:bg-neutral-700 focus:outline-none focus:bg-neutral-700 text-gray-400 font-normal text-base">
+    {post.title}
+  </button>
+</Link>
+
       
     </div>
   ))

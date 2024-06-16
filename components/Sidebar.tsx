@@ -44,7 +44,7 @@ const Sidebar:React.FC<sidebarProps> = ({
             
            </div>
            <main className="h-full flex-1 overflow-auto py-2">
-            <div className="widht:400px height:300px">
+           <div className="widht:400px height:300px ">
                 <HomeImage>
 
                 </HomeImage>
@@ -55,14 +55,13 @@ const Sidebar:React.FC<sidebarProps> = ({
                 
                 my-2
                 px-4
-                overflow-y-auto
                 h-full
                 w-full">
                     
             <div className="flex justify-center py-3 text-sl text-sky-400 font-bold">
-                <p>Anuj solanki</p>
+                <p>Anuj Solanki</p>
             </div> 
-            <div className="leading-7">
+            <div className="leading-0">
             {children}
 
             </div>

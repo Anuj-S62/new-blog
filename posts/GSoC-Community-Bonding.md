@@ -1,5 +1,5 @@
 ---
-title: "GSoc Community Bonding"
+title: "GSoC Community Bonding"
 ---
 
 
@@ -45,3 +45,5 @@ During this period, I:
 - Researched Whisper AI Containerization.
 
 - Set up and tested the previous build of the AGL Voice Assistant.
+
+-

@@ -2,97 +2,184 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*{
-  
+* {
     box-sizing: border-box;
-  
-  
 }
+
 html,
 body,
-:root{
-  height: 100%;
-  background-color: black;
-  color-scheme: dark;
-  
+:root {
+    height: 100%;
+    background-color: #121212;
+    color-scheme: dark;
+    margin: 3;
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
-  
-  font-size: 1rem;
-  text-align: justify;
-  font-family: 'Roboto', sans-serif;
-  color: #e0e0e0;
-
-   
-  
-  
- 
+/* body {
+    font-size: 18px;
+    text-align: justify;
+    color: #e0e0e0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
 }
 
-h1{
-
-  color: white;
-  font-size: 25px;
-  font-weight: 500;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  
+.container {
+    display: flex;
+    width: 100%;
 }
 
-h2{
-
-  color: white;
-  font-size: 25px;
-  font-weight: 500;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  
+.sidebar {
+    width: 20%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
 }
 
-/* ul>li>p>strong{
-  color: #12D3CF;
+.sidebar h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #b0b0b0;
+}
+
+.sidebar ul li:hover {
+    background-color: #333;
+    transform: scale(1.02);
+}
+
+.sidebar ul li.active {
+    background-color: #444;
+    color: #ffffff;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #212121;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#blogHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#blogImage {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+#authorName {
+    margin-top: 10px;
+    color: #1e90ff;
+}
+
+#blogContent {
+    animation: fadeIn 0.5s;
 } */
 
-h3{
-  
-  color: white;
-  font-size: 25px;
-  font-weight: 500;
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
-  margin-top: 5px;
-  margin-bottom: 5px;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-
-
-ul>li>ul>li{
-
-  color: yellow;
-  list-style-type: circle;
+a {
+    color: #1e90ff;
 }
 
-ul>li>p>a{
-  color: blue;
-  text-decoration: underline;
+a:hover {
+    color: #00bfff;
 }
 
-ul{
-    
-    /* padding: 5px; */
-    padding-left: 5px;
- 
+h1, h2, h3, h4, h5, h6 {
+    color: #c7c7c7;
+    margin-top: 20px; 
+    margin-bottom: 10px;
 }
 
-ul >li{
+h1 {
+    color: #12D3CF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #bbb9b9; /* Green */
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #dadada; /* Pink */
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: #c0c0c0;
+}
+
+code {
+    background-color: #2e2e2e;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #ffeb3b;
+}
+
+pre {
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Additional styles for list items and links in lists */
+ul {
+  padding-left: 20px;
+}
+
+ul > li {
   list-style: disc;
+  margin-bottom: 10px;
+  color: #adacac;
 }
 
-
-ul>li>a{
-  color: blue;
-  text-decoration: underline;
-
+ul > li > ul > li {
+  list-style-type: circle;
+  color: #b0b0b0;
 }
+ 
+
+ul > li > p > a, ul > li > a {
+    color: #1e90ff;
+    text-decoration: underline;
+}
+
+ul > li > p > a:hover, ul > li > a:hover {
+    color: #00bfff;
+} 
