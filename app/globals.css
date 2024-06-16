@@ -133,9 +133,16 @@ h2 {
 }
 
 h3 {
-    color: #dadada; /* Pink */
+    color: #e9e6e6; /* Pink */
     font-size: 20px;
     font-weight: 700;
+}
+
+h4{
+    color: #c0bfbf; /* Blue */
+    font-size: 18px;
+    font-weight: 700;
+
 }
 
 p {
