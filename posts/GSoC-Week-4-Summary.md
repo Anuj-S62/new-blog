@@ -17,7 +17,7 @@ In the fourth week of my Google Summer of Code (GSoC) project, I focused on inte
 
 - Refactored Recipes in meta-whisper Layer:
 
-   - Added licenses and Removed unnecessary recipes from the meta-whisper layer.
+   - Added licenses and Removed unnecessary recipes from the [meta-whisper](https://github.com/Anuj-S62/meta-whisper) layer.
 
 - Containerized Whisper AI Using Docker:
 
