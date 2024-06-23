@@ -4,7 +4,7 @@ title: "GSoC Week 03 Summary"
 
 
 <!-- # GSoC Week 02 Summary -->
-**Date**: 10 June 2024 - 06 June 2024
+**Date**: 10 June 2024 - 16 June 2024
 
 ## Introduction
 In the third week of my Google Summer of Code (GSoC) project, I focused on enhancing the speech-to-text capabilities of the `agl-service-voiceagent` by integrating the Whisper AI model for offline use. Additionally, I addressed several issues with existing recipes and implemented features to improve the overall functionality and reliability of the service.

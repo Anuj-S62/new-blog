@@ -156,7 +156,8 @@ code {
     background-color: #2e2e2e;
     padding: 2px 4px;
     border-radius: 4px;
-    color: #ffeb3b;
+    font-size: 0.9em;
+    color: #eec87b;
 }
 
 pre {
