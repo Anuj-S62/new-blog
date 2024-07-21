@@ -73,7 +73,6 @@ Simply use the voice-assistant app.
 
 ## Conclusion
 This week marked a significant milestone in enhancing the AGL Voice Assistant with robust speech recognition capabilities using Whisper and Vosk.
- Stay tuned for more updates as we continue to push the boundaries of voice interaction technology.
 
 
 -
