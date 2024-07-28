@@ -31,7 +31,7 @@ To resolve this, I conditionally included these x86-specific recipes and flags o
 
 ## Code Merged
 
-- [30109]((https://gerrit.automotivelinux.org/gerrit/c/apps/flutter-speechrecognition-demo/+/30109)) : Update Voice Agent Flutter App
+- [30109](https://gerrit.automotivelinux.org/gerrit/c/apps/flutter-speechrecognition-demo/+/30109) : Update Voice Agent Flutter App
 
 ## Tasks for Next Week
 
