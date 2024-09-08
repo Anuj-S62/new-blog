@@ -20,7 +20,7 @@ Developed all the necessary UI elements for the voice assistant, including:
     - A button to toggle online mode.
     - A button to select the speech-to-text model.
 
-#### # Demo Video of Voice Assistant UI : [Link](https://github.com/Anuj-S62/AGL-Voice-Assistant/tree/main#agl-voice-assistant)
+#### # Demo Video of Voice Assistant UI : [Link]()
 
 #### # Images:
 <!-- make the image to display side by side -->
