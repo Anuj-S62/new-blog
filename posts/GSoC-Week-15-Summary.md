@@ -15,12 +15,13 @@ Developed all the necessary UI elements for the voice assistant, including:
 - A button to start the voice assistant on the home screen.
 - A toggle button to enable/disable the voice assistant.
 - In the voice assistant settings:
+
     - A button to enable/disable the voice assistant.
     - A button to activate wake word detection.
     - A button to toggle online mode.
     - A button to select the speech-to-text model.
 
-#### # Demo Video of Voice Assistant UI : [Link]()
+#### # Demo Video of Voice Assistant UI : [Link](https://youtu.be/GnZg5rz_db0)
 
 #### # Images:
 <!-- make the image to display side by side -->
