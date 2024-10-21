@@ -31,8 +31,8 @@ const Sidebar: React.FC<sidebarProps> = ({ children }) => {
                     </SidebarItem>
                 </Box>
             </div>
-            <main className="h-full flex-1 overflow-auto py-2">
-                <div className="widht:400px height:300px ">
+            <main className="h-full flex-1 overflow-auto py-2 main-content">
+                <div className="widht:400px height:300px">
                     <HomeImage>
                     </HomeImage>
                 </div>
