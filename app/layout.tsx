@@ -10,7 +10,7 @@ import Sidebar from "@/components/Sidebar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Blogs",
+  title: "GSoC 24: Weekly Blogs",
   description: "created by Anuj Solanki",
 };
 
