@@ -1,5 +1,6 @@
 ---
 title: "GSoC Week 18 Summary"
+date: 18
 ---
 
 

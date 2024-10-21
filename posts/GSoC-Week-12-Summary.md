@@ -1,5 +1,6 @@
 ---
 title: "GSoC Week 12 Summary"
+date: 12
 ---
 
 

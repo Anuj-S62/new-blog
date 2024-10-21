@@ -1,5 +1,6 @@
 ---
 title: "GSoC Week 07 Summary"
+date: 7
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 title: "GSoC Week 08 Summary"
+date: 8
 ---
 
 

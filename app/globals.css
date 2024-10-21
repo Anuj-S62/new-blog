@@ -191,3 +191,11 @@ ul > li > p > a, ul > li > a {
 ul > li > p > a:hover, ul > li > a:hover {
     color: #00bfff;
 } 
+
+
+.sidebar {
+    height: 100vh; /* Make the sidebar take the full viewport height */
+    overflow-y: auto; /* Allow scrolling */
+    position: sticky; /* Keeps the sidebar in place when scrolling */
+    top: 0;
+  }

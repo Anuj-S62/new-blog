@@ -1,5 +1,6 @@
 ---
 title: "GSoC Week 10 Summary"
+date: 10
 ---
 
 

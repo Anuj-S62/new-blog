@@ -1,5 +1,6 @@
 ---
 title: "GSoC Week 19 Summary"
+date: 19
 ---
 
 

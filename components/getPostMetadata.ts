@@ -9,7 +9,7 @@ const getPostMetadata = ():PostMetadata[]=>{
   const markdownPosts = files.filter((files)=>files.endsWith(".md"));
   // const slugs = markdownPosts.map((file)=>file.replace(".md", ""));
   // return slugs;
-  const posts = markdownPosts.map((fileName)=>{
+  let posts = markdownPosts.map((fileName)=>{
     const fileContents = fs.readFileSync(`posts/${fileName}`, 'utf-8')
     const matterResult = matter(fileContents)
     return {
@@ -19,7 +19,16 @@ const getPostMetadata = ():PostMetadata[]=>{
       slug:fileName.replace(".md", ""),
     };
   })
+
+  // sort posts by date
+  posts.sort((a,b)=>{
+    if(a.date < b.date) return -1;
+    if(a.date > b.date) return 1;
+    return 0;
+  })
+
   return posts;
+
 
 }
 

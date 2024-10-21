@@ -1,5 +1,6 @@
 ---
 title: "GSoC Week 17 Summary"
+date: 17
 ---
 
 

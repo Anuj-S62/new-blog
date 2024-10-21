@@ -11,67 +11,40 @@ import { twMerge } from "tailwind-merge";
 interface sidebarProps{
     children: React.ReactNode;
 }
-const Sidebar:React.FC<sidebarProps> = ({
-    children
-})=>{
+const Sidebar: React.FC<sidebarProps> = ({ children }) => {
     return (
         <div className="flex h-full">
-           <div className="hidden md:flex
-            flex-col
-            gap-y-2
-            bg-black
-            h-full
-            w-[300px]
-            p-2
-           ">
-           <Box className="
-               h-[200px]
-           ">
-             <Header>
-
-             </Header>
-
-           </Box>
-           <Box className="overflow-y-auto h-full py-4 px-4">
-                <SidebarItem >
-
-                </SidebarItem>
-
-           </Box>
-           
-           </div>
-           <div>
-            
-           </div>
-           <main className="h-full flex-1 overflow-auto py-2">
-           <div className="widht:400px height:300px ">
-                <HomeImage>
-
-                </HomeImage>
+            <div className="hidden md:flex
+                flex-col
+                gap-y-2
+                bg-black
+                p-2
+                w-[300px]
+                sidebar
+            ">
+                <Box className="h-[200px]">
+                    <Header>
+                    </Header>
+                </Box>
+                <Box className="overflow-y-auto h-full py-4 px-4">
+                    <SidebarItem>
+                    </SidebarItem>
+                </Box>
             </div>
-            
-            <div className=" bg-neutral-900
-                rounded-lg
-                
-                my-2
-                px-4
-                h-full
-                w-full">
-                    
-            <div className="flex justify-center py-3 text-sl text-sky-400 font-bold">
-                <p>Anuj Solanki</p>
-            </div> 
-            <div className="leading-0">
-            {children}
-
-            </div>
-             
-             
-            
-           
-            </div>
-           </main>
-
+            <main className="h-full flex-1 overflow-auto py-2">
+                <div className="widht:400px height:300px ">
+                    <HomeImage>
+                    </HomeImage>
+                </div>
+                <div className="bg-neutral-900 rounded-lg my-2 px-4 h-full w-full">
+                    <div className="flex justify-center py-3 text-sl text-sky-400 font-bold">
+                        <p>Anuj Solanki</p>
+                    </div> 
+                    <div className="leading-0">
+                        {children}
+                    </div>
+                </div>
+            </main>
         </div>
     )
 }

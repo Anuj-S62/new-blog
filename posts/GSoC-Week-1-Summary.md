@@ -1,6 +1,8 @@
 ---
 title: "GSoC Week 01 Summary"
+date: 1
 ---
+
 
 <!-- # GSoC Week 1 Summary -->
 

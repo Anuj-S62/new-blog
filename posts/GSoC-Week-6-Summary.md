@@ -1,5 +1,6 @@
 ---
 title: "GSoC Week 06 Summary"
+date: 6
 ---
 
 
