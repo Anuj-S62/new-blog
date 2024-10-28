@@ -13,7 +13,7 @@ Summing up the final contributions to the AGL Voice Assistant project for GSoC 2
 - Completed the final report for GSoC 2024 submission.
 - Created the demo video showcasing the AGL Voice Assistant.
 
-**Demo Video Link**: [AGL Voice Assistant]
+**Demo Video Link**: [AGL Voice Assistant Demo Video](https://youtu.be/C7qqB4RV_3s)
 
 ## Tasks for Next Week
 - Submit the final report.
